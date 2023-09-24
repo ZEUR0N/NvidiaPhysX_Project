@@ -1,0 +1,488 @@
+﻿  BodyForces.cpp
+  FieldSystem.cpp
+  ForceField.cpp
+  ParticleForceRegistry.cpp
+  ParticleForces.cpp
+  BodySystem.cpp
+  Particle.cpp
+  ParticleSystem.cpp
+  RigidBody.cpp
+  GameStateManager.cpp
+  LevelGenerator.cpp
+  PlayerController.cpp
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(329,1): warning C5220: "physx::PxLightCpuTask::mRefCount": un miembro de datos no estático con un tipo calificado volátil ya no implica
+           que los constructores de copia/movimiento generados por el compilador y los operadores de asignación de copia o movimiento no sean triviales (compilando archivo de origen Forces\ParticleForces.cpp)
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(326): message : vea la declaración de 'physx::PxLightCpuTask::mRefCount' (compilando archivo de origen Forces\ParticleForces.cpp)
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(329,1): warning C5220: "physx::PxLightCpuTask::mRefCount": un miembro de datos no estático con un tipo calificado volátil ya no implica
+           que los constructores de copia/movimiento generados por el compilador y los operadores de asignación de copia o movimiento no sean triviales (compilando archivo de origen Game\GameStateManager.cpp)
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(326): message : vea la declaración de 'physx::PxLightCpuTask::mRefCount' (compilando archivo de origen Game\GameStateManager.cpp)
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(329,1): warning C5220: "physx::PxLightCpuTask::mRefCount": un miembro de datos no estático con un tipo calificado volátil ya no implica
+           que los constructores de copia/movimiento generados por el compilador y los operadores de asignación de copia o movimiento no sean triviales (compilando archivo de origen GameObjects\ParticleSystem.cpp)
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(326): message : vea la declaración de 'physx::PxLightCpuTask::mRefCount' (compilando archivo de origen GameObjects\ParticleSystem.cpp)
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(329,1): warning C5220: "physx::PxLightCpuTask::mRefCount": un miembro de datos no estático con un tipo calificado volátil ya no implica
+           que los constructores de copia/movimiento generados por el compilador y los operadores de asignación de copia o movimiento no sean triviales (compilando archivo de origen GameObjects\Particle.cpp)
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(326): message : vea la declaración de 'physx::PxLightCpuTask::mRefCount' (compilando archivo de origen GameObjects\Particle.cpp)
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(329,1): warning C5220: "physx::PxLightCpuTask::mRefCount": un miembro de datos no estático con un tipo calificado volátil ya no implica
+           que los constructores de copia/movimiento generados por el compilador y los operadores de asignación de copia o movimiento no sean triviales (compilando archivo de origen Forces\ParticleForceRegistry.cpp)
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(326): message : vea la declaración de 'physx::PxLightCpuTask::mRefCount' (compilando archivo de origen Forces\ParticleForceRegistry.cpp)
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(329,1): warning C5220: "physx::PxLightCpuTask::mRefCount": un miembro de datos no estático con un tipo calificado volátil ya no implica
+           que los constructores de copia/movimiento generados por el compilador y los operadores de asignación de copia o movimiento no sean triviales (compilando archivo de origen Forces\FieldSystem.cpp)
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(326): message : vea la declaración de 'physx::PxLightCpuTask::mRefCount' (compilando archivo de origen Forces\FieldSystem.cpp)
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(329,1): warning C5220: "physx::PxLightCpuTask::mRefCount": un miembro de datos no estático con un tipo calificado volátil ya no implica
+           que los constructores de copia/movimiento generados por el compilador y los operadores de asignación de copia o movimiento no sean triviales (compilando archivo de origen GameObjects\RigidBody.cpp)
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(326): message : vea la declaración de 'physx::PxLightCpuTask::mRefCount' (compilando archivo de origen GameObjects\RigidBody.cpp)
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(329,1): warning C5220: "physx::PxLightCpuTask::mRefCount": un miembro de datos no estático con un tipo calificado volátil ya no implica
+           que los constructores de copia/movimiento generados por el compilador y los operadores de asignación de copia o movimiento no sean triviales (compilando archivo de origen Forces\ForceField.cpp)
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(326): message : vea la declaración de 'physx::PxLightCpuTask::mRefCount' (compilando archivo de origen Forces\ForceField.cpp)
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(329,1): warning C5220: "physx::PxLightCpuTask::mRefCount": un miembro de datos no estático con un tipo calificado volátil ya no implica
+           que los constructores de copia/movimiento generados por el compilador y los operadores de asignación de copia o movimiento no sean triviales (compilando archivo de origen Game\PlayerController.cpp)
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(326): message : vea la declaración de 'physx::PxLightCpuTask::mRefCount' (compilando archivo de origen Game\PlayerController.cpp)
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(329,1): warning C5220: "physx::PxLightCpuTask::mRefCount": un miembro de datos no estático con un tipo calificado volátil ya no implica
+           que los constructores de copia/movimiento generados por el compilador y los operadores de asignación de copia o movimiento no sean triviales (compilando archivo de origen Game\LevelGenerator.cpp)
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(326): message : vea la declaración de 'physx::PxLightCpuTask::mRefCount' (compilando archivo de origen Game\LevelGenerator.cpp)
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(329,1): warning C5220: "physx::PxLightCpuTask::mRefCount": un miembro de datos no estático con un tipo calificado volátil ya no implica
+           que los constructores de copia/movimiento generados por el compilador y los operadores de asignación de copia o movimiento no sean triviales (compilando archivo de origen GameObjects\BodySystem.cpp)
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(326): message : vea la declaración de 'physx::PxLightCpuTask::mRefCount' (compilando archivo de origen GameObjects\BodySystem.cpp)
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(329,1): warning C5220: "physx::PxLightCpuTask::mRefCount": un miembro de datos no estático con un tipo calificado volátil ya no implica
+           que los constructores de copia/movimiento generados por el compilador y los operadores de asignación de copia o movimiento no sean triviales (compilando archivo de origen Forces\BodyForces.cpp)
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(326): message : vea la declaración de 'physx::PxLightCpuTask::mRefCount' (compilando archivo de origen Forces\BodyForces.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\Particle.cpp(4,37): warning C5038: miembro de datos "Particle::time_" se inicializará después de miembro de datos "Particle::size_"
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\Particle.cpp(4,50): warning C5038: miembro de datos "Particle::size_" se inicializará después de miembro de datos "Particle::color_"
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\Particle.cpp(4,63): warning C5038: miembro de datos "Particle::color_" se inicializará después de miembro de datos "Particle::inverseMass_"
+G:\Uni\3o\SIM\Practica4\skeleton\utils\Utils.h(31,15): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos (compilando archivo de origen Forces\ForceField.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\utils\Utils.h(31,53): warning C5219: conversión implícita de "const int" a "float"; posible pérdida de datos (compilando archivo de origen Forces\ForceField.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\utils\Color.h(81,15): warning C5219: conversión implícita de "long" a "float"; posible pérdida de datos (compilando archivo de origen Forces\ForceField.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForceGenerator.h(10,1): warning C5204: "ParticleForceGenerator": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Forces\ForceField.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(17,1): warning C4626: 'ParticleAnchoredSpring': el operador de asignaciones se definió implícitamente como eliminado (compilando archivo de origen Forces\ForceField.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(17,1): warning C5027: 'ParticleAnchoredSpring': el operador de asignaciones de movimiento se definió implícitamente como eliminado (compilando archivo de origen Forces\ForceField.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(17,1): warning C5204: "ParticleAnchoredSpring": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Forces\ForceField.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(33,1): warning C5204: "ParticleBungee": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Forces\ForceField.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(54,1): warning C5204: "ParticleBuoyancy": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Forces\ForceField.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(66,1): warning C5204: "ParticleDrag": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Forces\ForceField.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(76,1): warning C5204: "ParticleGravity": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Forces\ForceField.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(92,1): warning C4626: 'ParticleSpring': el operador de asignaciones se definió implícitamente como eliminado (compilando archivo de origen Forces\ForceField.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(92,1): warning C5027: 'ParticleSpring': el operador de asignaciones de movimiento se definió implícitamente como eliminado (compilando archivo de origen Forces\ForceField.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(92,1): warning C5204: "ParticleSpring": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Forces\ForceField.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\BodyForceGenerator.h(9,1): warning C5204: "BodyForceGenerator": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Forces\ForceField.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\BodyForces.h(10,1): warning C5204: "BodyWind": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Forces\ForceField.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\BodyForces.h(19,1): warning C5204: "BodyTorque": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Forces\ForceField.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ForceField.h(32,3): warning C4265: "ForceField": la clase tiene funciones virtuales, pero su destructor no trivial no es virtual; puede que las instancias de esta clase no se destruyan correctamente (compilando archivo de origen Forces\ForceField.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ForceField.h(54,12): warning C4388: '<': no coinciden signed/unsigned (compilando archivo de origen Forces\ForceField.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ForceField.h(68,12): warning C4388: '<': no coinciden signed/unsigned (compilando archivo de origen Forces\ForceField.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ForceField.cpp(4,14): warning C5038: miembro de datos "ForceField::fType_" se inicializará después de miembro de datos "ForceField::origin_"
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\RigidBody.h(15,20): warning C4100: 't': parámetro formal sin referencia (compilando archivo de origen Game\PlayerController.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ForceField.cpp(59,18): warning C5038: miembro de datos "ForceField::fType_" se inicializará después de miembro de datos "ForceField::origin_"
+G:\Uni\3o\SIM\Practica4\skeleton\Game\PlayerController.h(23,1): warning C4626: 'PlayerController': el operador de asignaciones se definió implícitamente como eliminado (compilando archivo de origen Game\PlayerController.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\utils\Utils.h(31,15): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos (compilando archivo de origen GameObjects\ParticleSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\utils\Utils.h(31,53): warning C5219: conversión implícita de "const int" a "float"; posible pérdida de datos (compilando archivo de origen GameObjects\ParticleSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ForceField.cpp(195,51): warning C4100: 't': parámetro formal sin referencia
+G:\Uni\3o\SIM\Practica4\skeleton\utils\Utils.h(31,15): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos (compilando archivo de origen Forces\BodyForces.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\utils\Utils.h(31,53): warning C5219: conversión implícita de "const int" a "float"; posible pérdida de datos (compilando archivo de origen Forces\BodyForces.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\utils\Color.h(81,15): warning C5219: conversión implícita de "long" a "float"; posible pérdida de datos (compilando archivo de origen GameObjects\ParticleSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\BodyForceGenerator.h(9,1): warning C5204: "BodyForceGenerator": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Forces\BodyForces.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\BodyForces.h(10,1): warning C5204: "BodyWind": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Forces\BodyForces.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\BodyForces.h(19,1): warning C5204: "BodyTorque": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Forces\BodyForces.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\BodyForces.cpp(6,52): warning C4100: 't': parámetro formal sin referencia
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\BodyForces.cpp(16,54): warning C4100: 't': parámetro formal sin referencia
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForceGenerator.h(10,1): warning C5204: "ParticleForceGenerator": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen GameObjects\ParticleSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(17,1): warning C4626: 'ParticleAnchoredSpring': el operador de asignaciones se definió implícitamente como eliminado (compilando archivo de origen GameObjects\ParticleSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(17,1): warning C5027: 'ParticleAnchoredSpring': el operador de asignaciones de movimiento se definió implícitamente como eliminado (compilando archivo de origen GameObjects\ParticleSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(17,1): warning C5204: "ParticleAnchoredSpring": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen GameObjects\ParticleSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(33,1): warning C5204: "ParticleBungee": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen GameObjects\ParticleSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(54,1): warning C5204: "ParticleBuoyancy": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen GameObjects\ParticleSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(66,1): warning C5204: "ParticleDrag": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen GameObjects\ParticleSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(76,1): warning C5204: "ParticleGravity": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen GameObjects\ParticleSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(92,1): warning C4626: 'ParticleSpring': el operador de asignaciones se definió implícitamente como eliminado (compilando archivo de origen GameObjects\ParticleSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(92,1): warning C5027: 'ParticleSpring': el operador de asignaciones de movimiento se definió implícitamente como eliminado (compilando archivo de origen GameObjects\ParticleSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(92,1): warning C5204: "ParticleSpring": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen GameObjects\ParticleSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\BodyForceGenerator.h(9,1): warning C5204: "BodyForceGenerator": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen GameObjects\ParticleSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\utils\Utils.h(31,15): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos (compilando archivo de origen GameObjects\BodySystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\utils\Utils.h(31,53): warning C5219: conversión implícita de "const int" a "float"; posible pérdida de datos (compilando archivo de origen GameObjects\BodySystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\utils\Utils.h(31,15): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos (compilando archivo de origen Forces\ParticleForces.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\utils\Utils.h(31,53): warning C5219: conversión implícita de "const int" a "float"; posible pérdida de datos (compilando archivo de origen Forces\ParticleForces.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForceGenerator.h(10,1): warning C5204: "ParticleForceGenerator": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Forces\ParticleForces.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\BodySystem.cpp(4,66): warning C5038: miembro de datos "BodySystem::colorR" se inicializará después de miembro de datos "BodySystem::life"
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(17,1): warning C4626: 'ParticleAnchoredSpring': el operador de asignaciones se definió implícitamente como eliminado (compilando archivo de origen Forces\ParticleForces.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(17,1): warning C5027: 'ParticleAnchoredSpring': el operador de asignaciones de movimiento se definió implícitamente como eliminado (compilando archivo de origen Forces\ParticleForces.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(17,1): warning C5204: "ParticleAnchoredSpring": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Forces\ParticleForces.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(33,1): warning C5204: "ParticleBungee": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Forces\ParticleForces.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(54,1): warning C5204: "ParticleBuoyancy": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Forces\ParticleForces.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(66,1): warning C5204: "ParticleDrag": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Forces\ParticleForces.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(76,1): warning C5204: "ParticleGravity": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Forces\ParticleForces.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(92,1): warning C4626: 'ParticleSpring': el operador de asignaciones se definió implícitamente como eliminado (compilando archivo de origen Forces\ParticleForces.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\BodySystem.cpp(60,31): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(92,1): warning C5027: 'ParticleSpring': el operador de asignaciones de movimiento se definió implícitamente como eliminado (compilando archivo de origen Forces\ParticleForces.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\BodySystem.cpp(60,70): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(92,1): warning C5204: "ParticleSpring": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Forces\ParticleForces.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\BodySystem.cpp(60,109): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.cpp(5,68): warning C4100: 't': parámetro formal sin referencia
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.cpp(21,60): warning C4100: 't': parámetro formal sin referencia
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.cpp(42,62): warning C4100: 't': parámetro formal sin referencia
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.cpp(70,58): warning C4100: 't': parámetro formal sin referencia
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.cpp(86,61): warning C4100: 't': parámetro formal sin referencia
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.cpp(95,60): warning C4100: 't': parámetro formal sin referencia
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\BodySystem.cpp(175): warning C4238: se ha utilizado una extensión no estándar: valor-R de clase utilizado como valor L
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(18,125): warning C4100: 'lifetime': parámetro formal sin referencia
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\BodySystem.cpp(175,59): warning C4238: se ha utilizado una extensión no estándar: valor-R de clase utilizado como valor L
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(18,74): warning C4100: 'acc': parámetro formal sin referencia
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(18,56): warning C4100: 'vel': parámetro formal sin referencia
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(27,109): warning C4100: 'lifetime': parámetro formal sin referencia
+G:\Uni\3o\SIM\Practica4\skeleton\utils\Utils.h(31,15): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos (compilando archivo de origen Game\LevelGenerator.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\utils\Utils.h(31,53): warning C5219: conversión implícita de "const int" a "float"; posible pérdida de datos (compilando archivo de origen Game\LevelGenerator.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(37,66): warning C4100: 'acc': parámetro formal sin referencia
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(37,48): warning C4100: 'vel': parámetro formal sin referencia
+G:\Uni\3o\SIM\Practica4\skeleton\utils\Color.h(81,15): warning C5219: conversión implícita de "long" a "float"; posible pérdida de datos (compilando archivo de origen Game\LevelGenerator.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(80,65): warning C4100: 'accel': parámetro formal sin referencia
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(124,47): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(124,110): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(124,157): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForceGenerator.h(10,1): warning C5204: "ParticleForceGenerator": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Game\LevelGenerator.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\utils\Utils.h(31,15): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos (compilando archivo de origen Forces\ParticleForceRegistry.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(17,1): warning C4626: 'ParticleAnchoredSpring': el operador de asignaciones se definió implícitamente como eliminado (compilando archivo de origen Game\LevelGenerator.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(17,1): warning C5027: 'ParticleAnchoredSpring': el operador de asignaciones de movimiento se definió implícitamente como eliminado (compilando archivo de origen Game\LevelGenerator.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(133,15): warning C4456: la declaración de 'col' oculta la declaración local anterior
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(114,10): message : vea la declaración de 'col'
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\RigidBody.h(15,20): warning C4100: 't': parámetro formal sin referencia (compilando archivo de origen GameObjects\RigidBody.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(17,1): warning C5204: "ParticleAnchoredSpring": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Game\LevelGenerator.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(133,32): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\utils\Utils.h(31,53): warning C5219: conversión implícita de "const int" a "float"; posible pérdida de datos (compilando archivo de origen Forces\ParticleForceRegistry.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(33,1): warning C5204: "ParticleBungee": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Game\LevelGenerator.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(133,53): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(54,1): warning C5204: "ParticleBuoyancy": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Game\LevelGenerator.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\RigidBody.cpp(6,29): warning C5038: miembro de datos "RigidBody::lifetime" se inicializará después de miembro de datos "RigidBody::mass"
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(133,82): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\RigidBody.cpp(6,50): warning C5038: miembro de datos "RigidBody::mass" se inicializará después de miembro de datos "RigidBody::linearDamping"
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(66,1): warning C5204: "ParticleDrag": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Game\LevelGenerator.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(134,26): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(135,30): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(76,1): warning C5204: "ParticleGravity": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Game\LevelGenerator.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(141,93): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(92,1): warning C4626: 'ParticleSpring': el operador de asignaciones se definió implícitamente como eliminado (compilando archivo de origen Game\LevelGenerator.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(92,1): warning C5027: 'ParticleSpring': el operador de asignaciones de movimiento se definió implícitamente como eliminado (compilando archivo de origen Game\LevelGenerator.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\RigidBody.cpp(5,100): warning C4100: 'dynamic': parámetro formal sin referencia
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(92,1): warning C5204: "ParticleSpring": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Game\LevelGenerator.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(144,15): warning C4456: la declaración de 'col' oculta la declaración local anterior
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(114,10): message : vea la declaración de 'col'
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(144,32): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\BodyForceGenerator.h(9,1): warning C5204: "BodyForceGenerator": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Game\LevelGenerator.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(144,53): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(144,82): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(145,26): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(146,30): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(152,93): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(155,15): warning C4456: la declaración de 'col' oculta la declaración local anterior
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(114,10): message : vea la declaración de 'col'
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(155,32): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(155,53): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(155,82): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(156,26): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(157,30): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(163,94): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForceGenerator.h(10,1): warning C5204: "ParticleForceGenerator": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Forces\ParticleForceRegistry.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(166,15): warning C4456: la declaración de 'col' oculta la declaración local anterior
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(114,10): message : vea la declaración de 'col'
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(166,32): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\BodyForceGenerator.h(9,1): warning C5204: "BodyForceGenerator": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Forces\ParticleForceRegistry.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(166,53): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(166,82): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(167,26): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(168,30): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(174,93): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(181,26): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(182,30): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(189,15): warning C4456: la declaración de 'col' oculta la declaración local anterior
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(114,10): message : vea la declaración de 'col'
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\BodyForces.h(10,1): warning C5204: "BodyWind": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Game\LevelGenerator.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(189,33): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(189,54): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\BodyForces.h(19,1): warning C5204: "BodyTorque": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Game\LevelGenerator.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(194,39): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(194,47): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(195,39): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(195,47): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(198,15): warning C4456: la declaración de 'col' oculta la declaración local anterior
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(114,10): message : vea la declaración de 'col'
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(198,33): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(198,54): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(247,35): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(253,40): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(259,28): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(259,48): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(259,77): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(284,35): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(290,40): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(297,28): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ForceField.h(32,3): warning C4265: "ForceField": la clase tiene funciones virtuales, pero su destructor no trivial no es virtual; puede que las instancias de esta clase no se destruyan correctamente (compilando archivo de origen Game\LevelGenerator.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(297,48): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(297,77): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(300,87): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ForceField.h(54,12): warning C4388: '<': no coinciden signed/unsigned (compilando archivo de origen Game\LevelGenerator.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ForceField.h(68,12): warning C4388: '<': no coinciden signed/unsigned (compilando archivo de origen Game\LevelGenerator.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(314,36): warning C5219: conversión implícita de "const int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(316,39): warning C5219: conversión implícita de "const int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(323,25): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(335,40): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(342,28): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(344,87): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\utils\Utils.h(31,15): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos (compilando archivo de origen Forces\FieldSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\utils\Utils.h(31,53): warning C5219: conversión implícita de "const int" a "float"; posible pérdida de datos (compilando archivo de origen Forces\FieldSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForceRegistry.cpp(76,12): warning C4388: '<': no coinciden signed/unsigned
+G:\Uni\3o\SIM\Practica4\skeleton\utils\Color.h(81,15): warning C5219: conversión implícita de "long" a "float"; posible pérdida de datos (compilando archivo de origen Forces\FieldSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForceRegistry.cpp(77,9): warning C4388: '>=': no coinciden signed/unsigned
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForceGenerator.h(10,1): warning C5204: "ParticleForceGenerator": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Forces\FieldSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(17,1): warning C4626: 'ParticleAnchoredSpring': el operador de asignaciones se definió implícitamente como eliminado (compilando archivo de origen Forces\FieldSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(17,1): warning C5027: 'ParticleAnchoredSpring': el operador de asignaciones de movimiento se definió implícitamente como eliminado (compilando archivo de origen Forces\FieldSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(17,1): warning C5204: "ParticleAnchoredSpring": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Forces\FieldSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(33,1): warning C5204: "ParticleBungee": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Forces\FieldSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(54,1): warning C5204: "ParticleBuoyancy": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Forces\FieldSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(66,1): warning C5204: "ParticleDrag": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Forces\FieldSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Game\LevelGenerator.h(77,1): warning C4626: 'LevelGenerator': el operador de asignaciones se definió implícitamente como eliminado (compilando archivo de origen Game\LevelGenerator.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(76,1): warning C5204: "ParticleGravity": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Forces\FieldSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(92,1): warning C4626: 'ParticleSpring': el operador de asignaciones se definió implícitamente como eliminado (compilando archivo de origen Forces\FieldSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(92,1): warning C5027: 'ParticleSpring': el operador de asignaciones de movimiento se definió implícitamente como eliminado (compilando archivo de origen Forces\FieldSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(92,1): warning C5204: "ParticleSpring": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Forces\FieldSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\BodyForceGenerator.h(9,1): warning C5204: "BodyForceGenerator": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Forces\FieldSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\BodyForces.h(10,1): warning C5204: "BodyWind": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Forces\FieldSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\BodyForces.h(19,1): warning C5204: "BodyTorque": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Forces\FieldSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ForceField.h(32,3): warning C4265: "ForceField": la clase tiene funciones virtuales, pero su destructor no trivial no es virtual; puede que las instancias de esta clase no se destruyan correctamente (compilando archivo de origen Forces\FieldSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ForceField.h(54,12): warning C4388: '<': no coinciden signed/unsigned (compilando archivo de origen Forces\FieldSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ForceField.h(68,12): warning C4388: '<': no coinciden signed/unsigned (compilando archivo de origen Forces\FieldSystem.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Game\LevelGenerator.cpp(243,25): warning C4388: '<': no coinciden signed/unsigned
+G:\Uni\3o\SIM\Practica4\skeleton\utils\Color.h(81,15): warning C5219: conversión implícita de "long" a "float"; posible pérdida de datos (compilando archivo de origen Game\GameStateManager.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\utils\Utils.h(31,15): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos (compilando archivo de origen Game\GameStateManager.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\utils\Utils.h(31,53): warning C5219: conversión implícita de "const int" a "float"; posible pérdida de datos (compilando archivo de origen Game\GameStateManager.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Game\GameState.h(16,3): warning C4265: "GameState": la clase tiene funciones virtuales, pero su destructor no trivial no es virtual; puede que las instancias de esta clase no se destruyan correctamente (compilando archivo de origen Game\GameStateManager.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\RigidBody.h(15,20): warning C4100: 't': parámetro formal sin referencia (compilando archivo de origen Game\GameStateManager.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Game\PlayerController.h(23,1): warning C4626: 'PlayerController': el operador de asignaciones se definió implícitamente como eliminado (compilando archivo de origen Game\GameStateManager.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForceGenerator.h(10,1): warning C5204: "ParticleForceGenerator": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Game\GameStateManager.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(17,1): warning C4626: 'ParticleAnchoredSpring': el operador de asignaciones se definió implícitamente como eliminado (compilando archivo de origen Game\GameStateManager.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(17,1): warning C5027: 'ParticleAnchoredSpring': el operador de asignaciones de movimiento se definió implícitamente como eliminado (compilando archivo de origen Game\GameStateManager.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(17,1): warning C5204: "ParticleAnchoredSpring": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Game\GameStateManager.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(33,1): warning C5204: "ParticleBungee": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Game\GameStateManager.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(54,1): warning C5204: "ParticleBuoyancy": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Game\GameStateManager.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(66,1): warning C5204: "ParticleDrag": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Game\GameStateManager.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(76,1): warning C5204: "ParticleGravity": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Game\GameStateManager.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(92,1): warning C4626: 'ParticleSpring': el operador de asignaciones se definió implícitamente como eliminado (compilando archivo de origen Game\GameStateManager.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(92,1): warning C5027: 'ParticleSpring': el operador de asignaciones de movimiento se definió implícitamente como eliminado (compilando archivo de origen Game\GameStateManager.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(92,1): warning C5204: "ParticleSpring": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Game\GameStateManager.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\BodyForceGenerator.h(9,1): warning C5204: "BodyForceGenerator": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Game\GameStateManager.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\BodyForces.h(10,1): warning C5204: "BodyWind": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Game\GameStateManager.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\BodyForces.h(19,1): warning C5204: "BodyTorque": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Game\GameStateManager.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ForceField.h(32,3): warning C4265: "ForceField": la clase tiene funciones virtuales, pero su destructor no trivial no es virtual; puede que las instancias de esta clase no se destruyan correctamente (compilando archivo de origen Game\GameStateManager.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ForceField.h(54,12): warning C4388: '<': no coinciden signed/unsigned (compilando archivo de origen Game\GameStateManager.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ForceField.h(68,12): warning C4388: '<': no coinciden signed/unsigned (compilando archivo de origen Game\GameStateManager.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Game\LevelGenerator.h(77,1): warning C4626: 'LevelGenerator': el operador de asignaciones se definió implícitamente como eliminado (compilando archivo de origen Game\GameStateManager.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Game\GameStateManager.cpp(13,3): warning C5205: la eliminación de una clase abstracta "GameState" que tiene un destructor no virtual produce un comportamiento no definido
+G:\Uni\3o\SIM\Practica4\skeleton\Game\GameState.h(13): message : vea la declaración de 'GameState'
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\FieldSystem.cpp(30,20): warning C4388: '<': no coinciden signed/unsigned
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\FieldSystem.cpp(39,22): warning C4388: '<': no coinciden signed/unsigned
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\FieldSystem.cpp(46,22): warning C4388: '<': no coinciden signed/unsigned
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\foundation\PxVec3.h(301): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\foundation\PxVec3.h(301) : nota: el intervalo "m" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\foundation\PxVec3.h(301) : nota: suministra la llamada en esta línea
+  PlayState.cpp
+  main.cpp
+  Camera.cpp
+  Render.cpp
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\foundation\PxVec3.h(311): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\foundation\PxVec3.h(310) : nota: el intervalo "m" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\foundation\PxVec3.h(311) : nota: suministra la llamada en esta línea
+  Scene.cpp
+  callbacks.cpp
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForceRegistry.cpp(76): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForceRegistry.cpp(76) : nota: el intervalo "" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForceRegistry.cpp(76) : nota: suministra la llamada en esta línea
+  RenderUtils.cpp
+  Timer.cpp
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(255): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(249) : nota: el intervalo "j" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(255) : nota: suministra la llamada en esta línea
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(193): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(192) : nota: el intervalo "i" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(193) : nota: suministra la llamada en esta línea
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(247): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(243) : nota: el intervalo "i" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(247) : nota: suministra la llamada en esta línea
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(184): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(180) : nota: el intervalo "i" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(184) : nota: suministra la llamada en esta línea
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(170): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(165) : nota: el intervalo "i" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(170) : nota: suministra la llamada en esta línea
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(159): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(154) : nota: el intervalo "i" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(159) : nota: suministra la llamada en esta línea
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(148): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(143) : nota: el intervalo "i" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(148) : nota: suministra la llamada en esta línea
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(137): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(132) : nota: el intervalo "i" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(137) : nota: suministra la llamada en esta línea
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(292): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(286) : nota: el intervalo "j" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(292) : nota: suministra la llamada en esta línea
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(284): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(280) : nota: el intervalo "i" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(284) : nota: suministra la llamada en esta línea
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(337): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(331) : nota: el intervalo "j" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(337) : nota: suministra la llamada en esta línea
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(329): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(318) : nota: el intervalo "i" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\ParticleSystem.cpp(329) : nota: suministra la llamada en esta línea
+G:\Uni\3o\SIM\Practica4\skeleton\Game\LevelGenerator.cpp(214): warning C4701: posiblemente se utilizó la variable local 't1' sin inicializar
+G:\Uni\3o\SIM\Practica4\skeleton\Game\LevelGenerator.cpp(215): warning C4701: posiblemente se utilizó la variable local 't2' sin inicializar
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\foundation\PxVec3.h(301): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\foundation\PxVec3.h(301) : nota: el intervalo "m" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\foundation\PxVec3.h(301) : nota: suministra la llamada en esta línea
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\FieldSystem.cpp(83): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\skeleton\Forces\FieldSystem.cpp(30) : nota: el intervalo "" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\skeleton\Forces\FieldSystem.cpp(83) : nota: suministra la llamada en esta línea
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\FieldSystem.cpp(57): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\skeleton\Forces\FieldSystem.cpp(30) : nota: el intervalo "" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\skeleton\Forces\FieldSystem.cpp(57) : nota: suministra la llamada en esta línea
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\FieldSystem.cpp(54): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\skeleton\Forces\FieldSystem.cpp(30) : nota: el intervalo "" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\skeleton\Forces\FieldSystem.cpp(54) : nota: suministra la llamada en esta línea
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\FieldSystem.cpp(51): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\skeleton\Forces\FieldSystem.cpp(30) : nota: el intervalo "" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\skeleton\Forces\FieldSystem.cpp(51) : nota: suministra la llamada en esta línea
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\FieldSystem.cpp(43): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\skeleton\Forces\FieldSystem.cpp(30) : nota: el intervalo "" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\skeleton\Forces\FieldSystem.cpp(43) : nota: suministra la llamada en esta línea
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\FieldSystem.cpp(41): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\skeleton\Forces\FieldSystem.cpp(30) : nota: el intervalo "" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\skeleton\Forces\FieldSystem.cpp(41) : nota: suministra la llamada en esta línea
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\FieldSystem.cpp(35): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\skeleton\Forces\FieldSystem.cpp(30) : nota: el intervalo "" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\skeleton\Forces\FieldSystem.cpp(35) : nota: suministra la llamada en esta línea
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\FieldSystem.cpp(31): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\skeleton\Forces\FieldSystem.cpp(30) : nota: el intervalo "" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\skeleton\Forces\FieldSystem.cpp(31) : nota: suministra la llamada en esta línea
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ForceField.h(56): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\skeleton\Forces\ForceField.h(54) : nota: el intervalo "" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\skeleton\Forces\ForceField.h(56) : nota: suministra la llamada en esta línea
+G:\Uni\3o\SIM\Practica4\skeleton\Render\Camera.cpp(130,19): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\skeleton\Render\Camera.cpp(132,19): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(329,1): warning C5220: "physx::PxLightCpuTask::mRefCount": un miembro de datos no estático con un tipo calificado volátil ya no implica
+           que los constructores de copia/movimiento generados por el compilador y los operadores de asignación de copia o movimiento no sean triviales (compilando archivo de origen main.cpp)
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(326): message : vea la declaración de 'physx::PxLightCpuTask::mRefCount' (compilando archivo de origen main.cpp)
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\foundation\PxVec3.h(301): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\foundation\PxVec3.h(301) : nota: el intervalo "m" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\foundation\PxVec3.h(301) : nota: suministra la llamada en esta línea
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\foundation\PxVec3.h(311): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\foundation\PxVec3.h(310) : nota: el intervalo "m" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\foundation\PxVec3.h(311) : nota: suministra la llamada en esta línea
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(329,1): warning C5220: "physx::PxLightCpuTask::mRefCount": un miembro de datos no estático con un tipo calificado volátil ya no implica
+           que los constructores de copia/movimiento generados por el compilador y los operadores de asignación de copia o movimiento no sean triviales (compilando archivo de origen Game\PlayState.cpp)
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(326): message : vea la declaración de 'physx::PxLightCpuTask::mRefCount' (compilando archivo de origen Game\PlayState.cpp)
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(329,1): warning C5220: "physx::PxLightCpuTask::mRefCount": un miembro de datos no estático con un tipo calificado volátil ya no implica
+           que los constructores de copia/movimiento generados por el compilador y los operadores de asignación de copia o movimiento no sean triviales (compilando archivo de origen Render\Render.cpp)
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(326): message : vea la declaración de 'physx::PxLightCpuTask::mRefCount' (compilando archivo de origen Render\Render.cpp)
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(329,1): warning C5220: "physx::PxLightCpuTask::mRefCount": un miembro de datos no estático con un tipo calificado volátil ya no implica
+           que los constructores de copia/movimiento generados por el compilador y los operadores de asignación de copia o movimiento no sean triviales (compilando archivo de origen utils\callbacks.cpp)
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(326): message : vea la declaración de 'physx::PxLightCpuTask::mRefCount' (compilando archivo de origen utils\callbacks.cpp)
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(329,1): warning C5220: "physx::PxLightCpuTask::mRefCount": un miembro de datos no estático con un tipo calificado volátil ya no implica
+           que los constructores de copia/movimiento generados por el compilador y los operadores de asignación de copia o movimiento no sean triviales (compilando archivo de origen Render\Scene.cpp)
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(326): message : vea la declaración de 'physx::PxLightCpuTask::mRefCount' (compilando archivo de origen Render\Scene.cpp)
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(329,1): warning C5220: "physx::PxLightCpuTask::mRefCount": un miembro de datos no estático con un tipo calificado volátil ya no implica
+           que los constructores de copia/movimiento generados por el compilador y los operadores de asignación de copia o movimiento no sean triviales (compilando archivo de origen utils\RenderUtils.cpp)
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\task\PxTask.h(326): message : vea la declaración de 'physx::PxLightCpuTask::mRefCount' (compilando archivo de origen utils\RenderUtils.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Render\Render.cpp(344): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\skeleton\Render\Render.cpp(339) : nota: el intervalo "j" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\skeleton\Render\Render.cpp(344) : nota: suministra la llamada en esta línea
+G:\Uni\3o\SIM\Practica4\skeleton\Render\Render.cpp(337): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\skeleton\Render\Render.cpp(332) : nota: el intervalo "i" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\skeleton\Render\Render.cpp(337) : nota: suministra la carga de memoria en esta línea
+G:\Uni\3o\SIM\Practica4\skeleton\Render\Render.cpp(154): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\skeleton\Render\Render.cpp(147) : nota: el intervalo "" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\skeleton\Render\Render.cpp(154) : nota: suministra la llamada en esta línea
+G:\Uni\3o\SIM\Practica4\skeleton\Render\Render.cpp(139): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\skeleton\Render\Render.cpp(124) : nota: el intervalo "nbPolys" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\skeleton\Render\Render.cpp(139) : nota: suministra la llamada en esta línea
+G:\Uni\3o\SIM\Practica4\skeleton\Render\Render.cpp(127): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\skeleton\Render\Render.cpp(124) : nota: el intervalo "nbPolys" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\skeleton\Render\Render.cpp(127) : nota: suministra la carga de memoria en esta línea
+G:\Uni\3o\SIM\Practica4\skeleton\Render\Render.cpp(211): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\skeleton\Render\Render.cpp(204) : nota: el intervalo "" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\skeleton\Render\Render.cpp(211) : nota: suministra la llamada en esta línea
+G:\Uni\3o\SIM\Practica4\skeleton\Render\Render.cpp(198): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\skeleton\Render\Render.cpp(184) : nota: el intervalo "triangleCount" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\skeleton\Render\Render.cpp(198) : nota: suministra la llamada en esta línea
+G:\Uni\3o\SIM\Practica4\skeleton\Render\Render.cpp(192): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\skeleton\Render\Render.cpp(184) : nota: el intervalo "triangleCount" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\skeleton\Render\Render.cpp(192) : nota: suministra la llamada en esta línea
+G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\foundation\PxVec3.h(311): warning C5045: El compilador insertará la mitigación de Spectre para la carga de memoria si se especificó el modificador /Qspectre
+  G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\foundation\PxVec3.h(310) : nota: el intervalo "m" del índice se comprobó por comparación en esta línea
+  G:\Uni\3o\SIM\Practica4\common\PhysX-3.4\PxShared\include\foundation\PxVec3.h(311) : nota: suministra la llamada en esta línea
+G:\Uni\3o\SIM\Practica4\skeleton\utils\Color.h(81,15): warning C5219: conversión implícita de "long" a "float"; posible pérdida de datos (compilando archivo de origen Game\PlayState.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\utils\Utils.h(31,15): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos (compilando archivo de origen Game\PlayState.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\utils\Utils.h(31,53): warning C5219: conversión implícita de "const int" a "float"; posible pérdida de datos (compilando archivo de origen Game\PlayState.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Game\GameState.h(16,3): warning C4265: "GameState": la clase tiene funciones virtuales, pero su destructor no trivial no es virtual; puede que las instancias de esta clase no se destruyan correctamente (compilando archivo de origen Game\PlayState.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\utils\Utils.h(31,15): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos (compilando archivo de origen Render\Scene.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\utils\Utils.h(31,53): warning C5219: conversión implícita de "const int" a "float"; posible pérdida de datos (compilando archivo de origen Render\Scene.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\RigidBody.h(15,20): warning C4100: 't': parámetro formal sin referencia (compilando archivo de origen Game\PlayState.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Game\PlayerController.h(23,1): warning C4626: 'PlayerController': el operador de asignaciones se definió implícitamente como eliminado (compilando archivo de origen Game\PlayState.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\utils\Color.h(81,15): warning C5219: conversión implícita de "long" a "float"; posible pérdida de datos (compilando archivo de origen Render\Scene.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForceGenerator.h(10,1): warning C5204: "ParticleForceGenerator": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Render\Scene.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(17,1): warning C4626: 'ParticleAnchoredSpring': el operador de asignaciones se definió implícitamente como eliminado (compilando archivo de origen Render\Scene.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(17,1): warning C5027: 'ParticleAnchoredSpring': el operador de asignaciones de movimiento se definió implícitamente como eliminado (compilando archivo de origen Render\Scene.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(17,1): warning C5204: "ParticleAnchoredSpring": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Render\Scene.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(33,1): warning C5204: "ParticleBungee": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Render\Scene.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(54,1): warning C5204: "ParticleBuoyancy": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Render\Scene.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(66,1): warning C5204: "ParticleDrag": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Render\Scene.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(76,1): warning C5204: "ParticleGravity": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Render\Scene.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(92,1): warning C4626: 'ParticleSpring': el operador de asignaciones se definió implícitamente como eliminado (compilando archivo de origen Render\Scene.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(92,1): warning C5027: 'ParticleSpring': el operador de asignaciones de movimiento se definió implícitamente como eliminado (compilando archivo de origen Render\Scene.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(92,1): warning C5204: "ParticleSpring": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Render\Scene.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\BodyForceGenerator.h(9,1): warning C5204: "BodyForceGenerator": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Render\Scene.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForceGenerator.h(10,1): warning C5204: "ParticleForceGenerator": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Game\PlayState.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(17,1): warning C4626: 'ParticleAnchoredSpring': el operador de asignaciones se definió implícitamente como eliminado (compilando archivo de origen Game\PlayState.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(17,1): warning C5027: 'ParticleAnchoredSpring': el operador de asignaciones de movimiento se definió implícitamente como eliminado (compilando archivo de origen Game\PlayState.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(17,1): warning C5204: "ParticleAnchoredSpring": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Game\PlayState.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(33,1): warning C5204: "ParticleBungee": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Game\PlayState.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(54,1): warning C5204: "ParticleBuoyancy": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Game\PlayState.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(66,1): warning C5204: "ParticleDrag": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Game\PlayState.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(76,1): warning C5204: "ParticleGravity": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Game\PlayState.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(92,1): warning C4626: 'ParticleSpring': el operador de asignaciones se definió implícitamente como eliminado (compilando archivo de origen Game\PlayState.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(92,1): warning C5027: 'ParticleSpring': el operador de asignaciones de movimiento se definió implícitamente como eliminado (compilando archivo de origen Game\PlayState.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(92,1): warning C5204: "ParticleSpring": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Game\PlayState.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\BodyForceGenerator.h(9,1): warning C5204: "BodyForceGenerator": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Game\PlayState.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\BodyForces.h(10,1): warning C5204: "BodyWind": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Render\Scene.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\BodyForces.h(19,1): warning C5204: "BodyTorque": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Render\Scene.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\BodyForces.h(10,1): warning C5204: "BodyWind": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Game\PlayState.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\BodyForces.h(19,1): warning C5204: "BodyTorque": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen Game\PlayState.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ForceField.h(32,3): warning C4265: "ForceField": la clase tiene funciones virtuales, pero su destructor no trivial no es virtual; puede que las instancias de esta clase no se destruyan correctamente (compilando archivo de origen Render\Scene.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ForceField.h(54,12): warning C4388: '<': no coinciden signed/unsigned (compilando archivo de origen Render\Scene.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ForceField.h(68,12): warning C4388: '<': no coinciden signed/unsigned (compilando archivo de origen Render\Scene.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ForceField.h(32,3): warning C4265: "ForceField": la clase tiene funciones virtuales, pero su destructor no trivial no es virtual; puede que las instancias de esta clase no se destruyan correctamente (compilando archivo de origen Game\PlayState.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ForceField.h(54,12): warning C4388: '<': no coinciden signed/unsigned (compilando archivo de origen Game\PlayState.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ForceField.h(68,12): warning C4388: '<': no coinciden signed/unsigned (compilando archivo de origen Game\PlayState.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Render\Scene.cpp(94): warning C4238: se ha utilizado una extensión no estándar: valor-R de clase utilizado como valor L
+G:\Uni\3o\SIM\Practica4\skeleton\Game\LevelGenerator.h(77,1): warning C4626: 'LevelGenerator': el operador de asignaciones se definió implícitamente como eliminado (compilando archivo de origen Game\PlayState.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Render\Scene.cpp(94,50): warning C4238: se ha utilizado una extensión no estándar: valor-R de clase utilizado como valor L
+G:\Uni\3o\SIM\Practica4\skeleton\utils\Utils.h(31,15): warning C5219: conversión implícita de "int" a "float"; posible pérdida de datos (compilando archivo de origen main.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\utils\Utils.h(31,53): warning C5219: conversión implícita de "const int" a "float"; posible pérdida de datos (compilando archivo de origen main.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\utils\Color.h(81,15): warning C5219: conversión implícita de "long" a "float"; posible pérdida de datos (compilando archivo de origen main.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForceGenerator.h(10,1): warning C5204: "ParticleForceGenerator": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen main.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(17,1): warning C4626: 'ParticleAnchoredSpring': el operador de asignaciones se definió implícitamente como eliminado (compilando archivo de origen main.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(17,1): warning C5027: 'ParticleAnchoredSpring': el operador de asignaciones de movimiento se definió implícitamente como eliminado (compilando archivo de origen main.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(17,1): warning C5204: "ParticleAnchoredSpring": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen main.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(33,1): warning C5204: "ParticleBungee": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen main.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(54,1): warning C5204: "ParticleBuoyancy": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen main.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(66,1): warning C5204: "ParticleDrag": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen main.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(76,1): warning C5204: "ParticleGravity": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen main.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(92,1): warning C4626: 'ParticleSpring': el operador de asignaciones se definió implícitamente como eliminado (compilando archivo de origen main.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(92,1): warning C5027: 'ParticleSpring': el operador de asignaciones de movimiento se definió implícitamente como eliminado (compilando archivo de origen main.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ParticleForces.h(92,1): warning C5204: "ParticleSpring": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen main.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\BodyForceGenerator.h(9,1): warning C5204: "BodyForceGenerator": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen main.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\BodyForces.h(10,1): warning C5204: "BodyWind": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen main.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\BodyForces.h(19,1): warning C5204: "BodyTorque": la clase tiene funciones virtuales, pero su destructor trivial no es virtual; puede que las instancias de objetos derivados de esta clase no se destruyan correctamente (compilando archivo de origen main.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ForceField.h(32,3): warning C4265: "ForceField": la clase tiene funciones virtuales, pero su destructor no trivial no es virtual; puede que las instancias de esta clase no se destruyan correctamente (compilando archivo de origen main.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ForceField.h(54,12): warning C4388: '<': no coinciden signed/unsigned (compilando archivo de origen main.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Forces\ForceField.h(68,12): warning C4388: '<': no coinciden signed/unsigned (compilando archivo de origen main.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Game\GameState.h(16,3): warning C4265: "GameState": la clase tiene funciones virtuales, pero su destructor no trivial no es virtual; puede que las instancias de esta clase no se destruyan correctamente (compilando archivo de origen main.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\GameObjects\RigidBody.h(15,20): warning C4100: 't': parámetro formal sin referencia (compilando archivo de origen main.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Game\PlayerController.h(23,1): warning C4626: 'PlayerController': el operador de asignaciones se definió implícitamente como eliminado (compilando archivo de origen main.cpp)
+G:\Uni\3o\SIM\Practica4\skeleton\Game\LevelGenerator.h(77,1): warning C4626: 'LevelGenerator': el operador de asignaciones se definió implícitamente como eliminado (compilando archivo de origen main.cpp)
+  game.vcxproj -> G:\Uni\3o\SIM\Practica4\bin\gameDEBUG.exe

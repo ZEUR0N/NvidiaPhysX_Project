@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de codigo fuente">
+      <UniqueIdentifier>{a7dd77d4-1bd6-40b0-aa57-785b449c934a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{bbf6f0b7-82a8-4f9d-97ae-996bffe0f2d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\GameObjects">
+      <UniqueIdentifier>{d16d2014-f7a9-442e-995f-35fcc29317d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de codigo fuente\GameObjects">
+      <UniqueIdentifier>{3281fd5a-b59c-470a-a6b8-ce3a4ba55c66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de codigo fuente\utils">
+      <UniqueIdentifier>{dc8db348-98a0-4634-96e3-4cb5ec3d8946}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\utils">
+      <UniqueIdentifier>{7330aa68-20ea-4b0d-ba03-9b1f603a54c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de codigo fuente\Render">
+      <UniqueIdentifier>{b9c9b3ee-4b1c-4fa4-b464-bc7271e03bda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Render">
+      <UniqueIdentifier>{d04b4f9f-5a69-465e-8070-25c6d0bcd3c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{d2ef579f-dfaa-44ac-8653-afc91be50e3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de codigo fuente\Forces">
+      <UniqueIdentifier>{75450f58-26a8-4837-b9c5-a47dfd8f9388}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Forces">
+      <UniqueIdentifier>{689afcd7-8839-4d14-936b-0eb196a5bbad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de codigo fuente\Game">
+      <UniqueIdentifier>{3d8deb4e-2110-4a4e-8a1b-01eefd047b00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Game">
+      <UniqueIdentifier>{1df25895-207d-4b2e-8173-b0e46f830ddd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameObjects\Particle.cpp">
+      <Filter>Archivos de codigo fuente\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Camera.cpp">
+      <Filter>Archivos de codigo fuente\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Render.cpp">
+      <Filter>Archivos de codigo fuente\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\callbacks.cpp">
+      <Filter>Archivos de codigo fuente\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\RenderUtils.cpp">
+      <Filter>Archivos de codigo fuente\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de codigo fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\ParticleSystem.cpp">
+      <Filter>Archivos de codigo fuente\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\Timer.cpp">
+      <Filter>Archivos de codigo fuente\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Forces\ParticleForceRegistry.cpp">
+      <Filter>Archivos de codigo fuente\Forces</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Scene.cpp">
+      <Filter>Archivos de codigo fuente\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Forces\ForceField.cpp">
+      <Filter>Archivos de codigo fuente\Forces</Filter>
+    </ClCompile>
+    <ClCompile Include="Forces\FieldSystem.cpp">
+      <Filter>Archivos de codigo fuente\Forces</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\BodySystem.cpp">
+      <Filter>Archivos de codigo fuente\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Forces\ParticleForces.cpp">
+      <Filter>Archivos de codigo fuente\Forces</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\RigidBody.cpp">
+      <Filter>Archivos de codigo fuente\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Forces\BodyForces.cpp">
+      <Filter>Archivos de codigo fuente\Forces</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameStateManager.cpp">
+      <Filter>Archivos de codigo fuente\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\PlayState.cpp">
+      <Filter>Archivos de codigo fuente\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\LevelGenerator.cpp">
+      <Filter>Archivos de codigo fuente\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\PlayerController.cpp">
+      <Filter>Archivos de codigo fuente\Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameObjects\Particle.h">
+      <Filter>Archivos de encabezado\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Camera.h">
+      <Filter>Archivos de encabezado\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Render.h">
+      <Filter>Archivos de encabezado\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\callbacks.hpp">
+      <Filter>Archivos de encabezado\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\core.hpp">
+      <Filter>Archivos de encabezado\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\RenderUtils.hpp">
+      <Filter>Archivos de encabezado\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\ParticleSystem.h">
+      <Filter>Archivos de encabezado\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\Timer.h">
+      <Filter>Archivos de encabezado\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\Utils.h">
+      <Filter>Archivos de encabezado\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Forces\ParticleForceGenerator.h">
+      <Filter>Archivos de encabezado\Forces</Filter>
+    </ClInclude>
+    <ClInclude Include="Forces\ParticleForceRegistry.h">
+      <Filter>Archivos de encabezado\Forces</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Scene.h">
+      <Filter>Archivos de encabezado\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Forces\ForceField.h">
+      <Filter>Archivos de encabezado\Forces</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\Color.h">
+      <Filter>Archivos de encabezado\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Forces\FieldSystem.h">
+      <Filter>Archivos de encabezado\Forces</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\BodySystem.h">
+      <Filter>Archivos de encabezado\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Forces\BodyForceGenerator.h">
+      <Filter>Archivos de encabezado\Forces</Filter>
+    </ClInclude>
+    <ClInclude Include="Forces\ParticleForces.h">
+      <Filter>Archivos de encabezado\Forces</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjects\RigidBody.h">
+      <Filter>Archivos de encabezado\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Forces\BodyForces.h">
+      <Filter>Archivos de encabezado\Forces</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameState.h">
+      <Filter>Archivos de encabezado\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameStateManager.h">
+      <Filter>Archivos de encabezado\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\PlayState.h">
+      <Filter>Archivos de encabezado\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\LevelGenerator.h">
+      <Filter>Archivos de encabezado\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\PlayerController.h">
+      <Filter>Archivos de encabezado\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
